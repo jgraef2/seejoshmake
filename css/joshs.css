@@ -1,0 +1,86 @@
+#howdytile {
+}
+#howdy {
+    position: absolute;
+    margin-top: -10%;
+}
+#whoisjosh p{
+  color: white;
+  text-align: center;
+  position: normal;
+  font-size: 25px;
+  line-height: 60px;
+  font-family: "lato";
+}
+#joshcanhelptext {
+  line-height: 99px;
+  color: white;
+}
+#letschat {
+  font-size:20px;
+}
+#whoisjosh a {
+  color: #FAD500;
+  font-style: italic;
+  text-decoration: underline;
+}
+#whoisjosh a:hover {
+  color: #FAD500;
+  text-decoration: none;
+}
+#about {
+  background-color: #525252;
+  width: 100%;
+}
+@media (min-width: 300px) {
+  .introtile {
+  }
+}
+@media (min-width: 992px) {
+  .introtile {
+  }
+}
+@media (min-width: 768px) {
+  .introtile {
+
+  }
+}
+@media (min-width: 650px) {
+  .introtile {
+  }
+}
+@media (min-width: 500px) {
+  .introtile {
+  }
+}
+
+#nav {
+  background-color:#ff4400;
+  background-color: transparent;
+  opacity: 1;
+  text-align: center;
+  /*display: none;*/
+}
+#whojoshtype p {
+  color: #B8B8B8;
+  text-align:center;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-weight: 700;
+  position: absolute;
+  margin-top: -178px;
+  width: 100%;
+  margin-left:-12px;
+}
+#thisisjoshtile {
+  padding-top:20%;
+}
+#thisisjosh {
+  position: relative;
+  margin-top: 50%;
+  display:none;
+}
+.introtile{
+  background-color: #ff4400;
+  /*background-image: url(../img/Josh.gif);*/
+}
