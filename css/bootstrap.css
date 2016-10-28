@@ -243,7 +243,6 @@ th {
     background: #fff !important;
   }
   .navbar {
-    display: none;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -3305,7 +3304,7 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     left: auto;
-    right: 0;
+    right: 0px;
   }
   .navbar-right .dropdown-menu-left {
     left: 0;
@@ -3635,15 +3634,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 .nav {
-  margin-bottom: 0;
-  padding-left: 0;
+  position: absolute;
   list-style: none;
+  margin: 0 auto;
 }
 .nav > li {
   position: relative;
   display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 .nav > li > a {
+  background-color: rgba(255, 68, 0, 0.1);
+  background-blend-mode: screen;
+  background-clip: content-box;
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -3651,7 +3655,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #ecf0f1;
+  background-color: #white;
 }
 .nav > li.disabled > a {
   color: #b4bcc2;
@@ -3960,15 +3964,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-toggle {
   position: relative;
-  float: right;
-  margin-right: 15px;
-  padding: 9px 10px;
+  float: left;
+  margin-left: 15px;
+  padding: 23.4px 20px;
   margin-top: 13px;
   margin-bottom: 13px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 100%;
 }
 .navbar-toggle:focus {
   outline: 0;
@@ -4020,7 +4024,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    width: 100%;
     margin: 0;
   }
   .navbar-nav > li {
@@ -4102,7 +4106,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-form {
-    width: auto;
+    width: 100%;
     border: 0;
     margin-left: 0;
     margin-right: 0;
@@ -4160,7 +4164,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background-color: #B22500;
-  border-color: transparent;
+  border-color: yellow;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
