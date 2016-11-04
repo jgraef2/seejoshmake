@@ -36,10 +36,10 @@
 
 <body id="page-top" class="index">
 
-    <!-- Navigation
+    <!-- Navigation -->
     <nav id="nav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container" >
-            <!- - Brand and toggle get grouped for better mobile display - ->
+        <div class="container" style="float:center;">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -49,9 +49,9 @@
                 </button>
                 <a class="navbar-brand" href="#page-top">See Josh make:</a>
             </div>
-            <!- - Collect the nav links, forms, and other content for toggling - ->
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav" id="uncollnav">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
@@ -66,11 +66,10 @@
                     </li>
                 </ul>
             </div>
-            <!- - /.navbar-collapse - ->
+            <!-- /.navbar-collapse -->
         </div>
-        <!- - /.container-fluid - ->
+        <!-- /.container-fluid -->
     </nav>
-    -->
 
     <!-- Header -->
     <header>
@@ -86,14 +85,15 @@
         </div>
     </header>
     <header class="introtile">
+      <img class="img-responsive" id="howdy" src="img/profile.png" alt="Howdy">
         <div class="container" id="thisisjoshtile">
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-responsive" id="thisisjosh" width="200px" src="img/thisisjosh.png" alt="this is josh.">
                     <div class="intro-text">
-                        <span class="name">This is Josh</span>
+                        <span class="name" id="thisisjoshtype">This is Josh</span>
                         <!--<hr class="star-light"> -->
-                        <span class="skills">Designer / Entrepreneur / Thinker</span>
+                        <span class="skills" style="font-family: Montserrat;">Designer / Entrepreneur / Thinker</span>
                     </div>
                 </div>
             </div>
@@ -105,24 +105,26 @@
                 <div class="col-lg-12">
                     <!-- <img class="img-responsive" src="img/gif" alt=""> -->
                     <div class="intro-text">
-                        <span class="name">Josh</br>makes</br>things.</span>
+                        <span class="name" id="makesthings">Josh</br>makes</br>things.</br> <i class="fa fa-angle-double-down" aria-hidden="true"></i></span>
                         <!--<hr class="star-light"> -->
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <header style="background-color: #00CDC1;">
+    <header style="background-color: #00CDC1; padding-bottom:-300px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                   <!--  <img class="img-responsive" src="img/.gif" alt=""> -->
                     <div class="intro-text">
-                        <span class="name">See</br>Josh</br>make:</span>
-                        <!--<hr class="star-light"> -->
+                        <span class="name" id="seejoshmaketype">See Josh make.</span>
                     </div>
                 </div>
             </div>
+        </div>
+        <div>
+          <img class="img-responsive" id="bracket" src="img/bracket.png">
         </div>
     </header>
 
@@ -194,39 +196,52 @@
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
                     </a>
                 </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="success" id="about">
+    <div class="success" id="about">
+      <div>
+        <img id="jaggy" src="img/jaggy.svg">
+      </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center" id="whojoshtype">
-                  <p>Who</br>is</br>Josh?</p>
+                  <span>Who is Josh?</span>
                 </div>
                 </div>
             </div>
             <div id="whoisjosh" class="row">
-                <div  class="">
+                <div>
                   <!-- add links for these to something that illustrates the phrase -->
-                    <p>Josh builds things. </br>Josh is passionate. </br>Josh fails often. </br> Josh journals sometimes. </br> Josh always doodles. </br> Josh takes photography. </br>Josh makes woodworks.</br>
-                    Josh can unicycle.<br>Josh starts businesses. </br>Josh tosses bricks. </br>Josh reads, slowly. </br>Josh mountain bikes.</br>Josh <a href="joshcanhelp.html">does freelance.</a> </p>
+                    <p>builder / doodler / photographer  / woodworker /
+                    unicycler / entrepreneur / brick tosser / reader / mountain biker / <a href="joshcanhelp.html">freelancer</a> </p>
                 </div>
             </div>
         <div class="text-center row">
           <a href="GRAEF_RESUME.pdf" target="_blank" class="btn btn-social btn-outline" id="resumebtn">
-               <i class="fa fa-trophy" style="font-size: 40px;"></i></br> Résumé
+               <i class="fa fa-download" style="font-size: 40px;"></i></br> Full Résumé
             </a>
         </div>
-    </section>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p class="introtext name">Talk</br>to</br>Josh</p>
+                    <p id="talktojosh">Talk to Josh.</p>
                 </div>
             </div>
             <div class="row">
@@ -278,7 +293,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" style="background-color: #ff4400;">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
@@ -302,7 +317,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Joshua Aaron Graef 2022
+                        Copyright &copy; Joshua Aaron Graef 2017
                     </div>
                 </div>
             </div>

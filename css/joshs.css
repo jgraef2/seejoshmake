@@ -1,19 +1,26 @@
+* {
+  box-sizing: border-box;
+}
 #howdytile {
+ display: none;
+}
+.introtile {
+  background-image: url(../img/Josh.gif);
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  /*background-size: 100%;*/
+  background-size: cover;
+  background-position: center;
+  background-position: top;
+  height: 800px;
+  overflow-x: scroll;
 }
 #howdy {
-    position: absolute;
-    margin-top: -10%;
+    position: relative;
+    margin-top: 10%;
     -webkit-transform: rotate(-4deg);
     -ms-transform: rotate(-4deg);
     transform: rotate(-4deg);
-}
-#whoisjosh p{
-  color: white;
-  text-align: center;
-  position: normal;
-  font-size: 25px;
-  line-height: 60px;
-  font-family: "lato";
 }
 #joshcanhelptext {
   line-height: 99px;
@@ -22,36 +29,118 @@
 #letschat {
   font-size:20px;
 }
+#contact {
+  background-color: #FAD500;
+}
+#resumebtn {
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 20px;
+}
+#whoisjosh p{
+  color: white;
+  text-align: center;
+  position: normal;
+  font-size: 3em;
+  line-height: 50px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: -100px;
+}
 #whoisjosh a {
-  color: #FAD500;
+  color: white;
   font-style: italic;
   text-decoration: underline;
   transition: all .3s ease-in-out;
 }
-#resumebtn {
-  font-size: 21px;
-  line-height: 30px;
-  padding-top: 20px;
-}
 #whoisjosh a:hover {
   color: #FAD500;
+  background-image:
   text-decoration: none;
 }
 #about {
-  background-color: #525252;
+  background-color: #00CDC1;
+  padding-bottom: 100px;
+  background-image: url(../img/prof2.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  /*background-size: 100%;*/
+  background-size: cover;
+  background-position: center;
+  background-position: top;
+  /*height: 700px;*/
+}
+#makesthings {
+  display: block;
+  /*text-transform: uppercase;*/
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 5em;
+  color: black;
+  text-align:center;
+  font-weight: 700;
+  /*padding-left: -50%;*/
+  line-height: 83px;
+}
+#seejoshmaketype {
+  display: block;
+  /*text-transform: uppercase;*/
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 5em;
+  color: black;
+  text-align:center;
+  font-weight: 700;
+  /*padding-left: -50%;*/
+  line-height: 83px;
+}
+#talktojosh {
+  text-align:center;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  color: black;
+  line-height: 83px;
+}
+#seejoshplaytype {
+  color: white;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  line-height: 83px;
+  position: relative;
   width: 100%;
+}
+#whojoshtype {
+  color: white;
+  text-align:center;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 5em;
+  line-height: 83px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 50px;
+  width: 100%;
+}
+#thisisjoshtype {
+  color: black;
+  text-align:center;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 5em;
+  line-height: 83px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 50px;
+  width: 100%;
+}
+#nav {
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  /*display: none;*/
 }
 @media (min-width: 300px) {
   .introtile {
-  }
-}
-@media (min-width: 992px) {
-  .introtile {
-  }
-}
-@media (min-width: 768px) {
-  .introtile {
-
   }
 }
 @media (min-width: 650px) {
@@ -62,45 +151,63 @@
   .introtile {
   }
 }
+@media (min-width: 768px) {
+  #makesthings {
+    line-height: 125px;
+    font-size: 8em;
+  }
+  #talktojosh {
+    font-size: 8em;
+    line-height: 125px;
+  }
+  #seejoshmaketype {
+    font-size: 8em;
+    line-height: 125px;
+  }
+  #seejoshplaytype {
+    font-size: 8em;
+    line-height: 125px;
+  }
+  #whojoshtype {
+    font-size: 8em;
+    line-height: 125px;
+  }
+  #thisisjoshtype {
+    font-size: 8em;
+    line-height: 125px;
+  }
+  #nav {
+    background-color:#ff4400;
+  }
+}
+@media (min-width: 992px) {
+  .introtile {
+  }
+}
+
 #chevronadjust {
   padding-left: -20px;
 }
-#nav {
-  background-color:#ff4400;
-  background-color: transparent;
-  opacity: 1;
-  text-align: center;
-  /*display: none;*/
-}
-#whojoshtype p {
-  color: white;
-  text-align:center;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 8em;
-  line-height: 125px;
-  font-weight: 700;
-  position: relative;
-  margin-bottom: 50px;
+#bracket {
   width: 100%;
 }
-#seejoshplaytype {
-  color: white;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 8em;
-  font-weight: 700;
-  line-height: 125px;
-  position: relative;
+#jaggy {
   width: 100%;
+  padding-bottom: 80px;
 }
 #thisisjoshtile {
   padding-top:20%;
+  height: 900px;
 }
 #thisisjosh {
-  position: relative;
+  font-size: 3em;
+  position: absolute;
   margin-top: 50%;
   display:none;
 }
 .introtile{
   background-color: #ff4400;
   /*background-image: url(../img/Josh.gif);*/
+}
+#uncollnav {
 }
