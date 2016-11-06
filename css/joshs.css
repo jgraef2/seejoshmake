@@ -13,14 +13,23 @@
   background-position: center;
   background-position: top;
   height: 800px;
-  overflow-x: scroll;
+}
+.secondtype {
+  font-size: 1.65em;
+  font-weight: 300;
 }
 #howdy {
+    opacity: .8;
     position: relative;
     margin-top: 10%;
     -webkit-transform: rotate(-4deg);
     -ms-transform: rotate(-4deg);
     transform: rotate(-4deg);
+    display: none;
+}
+#thisisjoshtile {
+  padding-top:12%;
+  height: 900px;
 }
 #joshcanhelptext {
   line-height: 99px;
@@ -42,12 +51,13 @@
   text-align: center;
   position: normal;
   font-size: 3em;
+  font-weight: 300;
   line-height: 50px;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: bold;
   padding-left: 80px;
   padding-right: 80px;
   padding-top: -100px;
+  font-size: 1.65em;
 }
 #whoisjosh a {
   color: white;
@@ -130,7 +140,7 @@
   line-height: 83px;
   font-weight: 700;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   width: 100%;
 }
 #nav {
@@ -139,16 +149,24 @@
   width: 100%;
   /*display: none;*/
 }
-@media (min-width: 300px) {
+@media (max-width: 300px) {
   .introtile {
+    height: 300px;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 300px) {
   .introtile {
+    height: 320px;
   }
 }
 @media (min-width: 500px) {
   .introtile {
+    height: 390px
+  }
+}
+@media (min-width: 650px) {
+  .introtile {
+    height: 590px;
   }
 }
 @media (min-width: 768px) {
@@ -179,12 +197,23 @@
   #nav {
     background-color:#ff4400;
   }
+  .secondtype {
+    font-size: 2.6em;
+  }
+  #whoisjosh p {
+    font-size: 2.6em;
+  }
 }
 @media (min-width: 992px) {
   .introtile {
+    height: 900px;
   }
 }
-
+@media (min-width: 1200px) {
+  .introtile {
+    height: 1100px;
+  }
+}
 #chevronadjust {
   padding-left: -20px;
 }
@@ -194,10 +223,6 @@
 #jaggy {
   width: 100%;
   padding-bottom: 80px;
-}
-#thisisjoshtile {
-  padding-top:20%;
-  height: 900px;
 }
 #thisisjosh {
   font-size: 3em;
@@ -210,4 +235,7 @@
   /*background-image: url(../img/Josh.gif);*/
 }
 #uncollnav {
+}
+.portfolio-scaled {
+  max-height: 600px;
 }

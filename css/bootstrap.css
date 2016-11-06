@@ -995,7 +995,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
   line-height: 1.1;
   color: inherit;
@@ -1026,7 +1026,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #b4bcc2;
+  color: gray;
 }
 h1,
 .h1,
@@ -1149,7 +1149,7 @@ mark,
   color: #b4bcc2;
 }
 .text-primary {
-  color: #2c3e50;
+  color: #FF4400;
 }
 a.text-primary:hover {
   color: #1a242f;
@@ -1180,7 +1180,7 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #2c3e50;
+  background-color: ;
 }
 a.bg-primary:hover {
   background-color: #1a242f;
@@ -2303,7 +2303,7 @@ legend {
   margin-bottom: 21px;
   font-size: 22.5px;
   line-height: inherit;
-  color: #2c3e50;
+  color: FF4400;
   border: 0;
   border-bottom: 1px solid transparent;
 }
