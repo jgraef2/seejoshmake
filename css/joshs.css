@@ -33,7 +33,7 @@
 }
 #thisisjoshtile {
   padding-top:12%;
-  height: 900px;
+
 }
 #joshcanhelptext {
   line-height: 99px;
@@ -77,35 +77,34 @@
 #about {
   background-color: #00CDC1;
   padding-bottom: 100px;
-  background-image: url(img/prof2.jpg);
+  background-image: url(/img/prof2.jpg);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
-  /*background-size: 100%;*/
   background-size: cover;
   background-position: center;
   background-position: top;
-  /*height: 700px;*/
+}
+#footername {
+  font-weight: 300;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #makesthings {
   display: block;
-  /*text-transform: uppercase;*/
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 5em;
   color: black;
   text-align:center;
   font-weight: 700;
-  /*padding-left: -50%;*/
   line-height: 83px;
+  padding-bottom:100px;
 }
 #seejoshmaketype {
   display: block;
-  /*text-transform: uppercase;*/
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 5em;
   color: black;
   text-align:center;
   font-weight: 700;
-  /*padding-left: -50%;*/
   line-height: 83px;
 }
 #talktojosh {
@@ -122,15 +121,13 @@
   font-size: 5em;
   font-weight: 700;
   line-height: 83px;
-  position: relative;
-  width: 100%;
 }
 #whojoshtype {
   color: white;
   text-align:center;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 3em;
-  line-height: 45px;
+  font-size: 5em;
+  line-height: 83px;
   font-weight: 700;
   position: relative;
   margin-bottom: 5px;
@@ -165,6 +162,10 @@
   .secondtype {
     display: none;
   }
+  #seejoshplaytile {
+    margin-bottom: -50px;
+    margin-top: -140px;
+  }
   #sendbtn {
     margin-left: 34%;
     padding: none;
@@ -179,6 +180,9 @@
 @media (min-width: 500px) {
   .introtile {
     height: 390px;
+  }
+  #seejoshplaytile {
+    margin-bottom: 90px;
   }
   #thisisjoshtype {
     font-size: 5em;
