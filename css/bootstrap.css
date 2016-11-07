@@ -4001,7 +4001,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 9.75px -15px;
+  margin: 3px -1px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4034,7 +4034,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    margin: 0;
   }
   .navbar-nav > li {
     display:inline-block;

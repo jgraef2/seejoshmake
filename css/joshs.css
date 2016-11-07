@@ -236,6 +236,11 @@
     padding-right: 120px
   }
 }
+@media (max-width: 992px) {
+  #portfolio .caption-content p {
+    display: none;
+  }
+}
 @media (min-width: 992px) {
   .introtile {
     height: 900px;
@@ -271,6 +276,7 @@
   background-color: #FF4400;
   width: 100%;
   text-align: center;
+  padding-right: 58px;
 }
 .portfolio-scaled {
   max-height: 600px;
