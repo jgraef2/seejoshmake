@@ -173,6 +173,9 @@
     padding: none;
     right: auto 0;
   }
+  .introtile {
+    background-image: url(../img/josh.jpg);
+  }
 }
 @media (min-width: 300px) {
   .introtile {
