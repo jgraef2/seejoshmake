@@ -13,10 +13,10 @@
     "zoom",
     "image editor"
   ],
-  "homepage": "http://seejoshmake.com/print/index.html",
+  "homepage": "../../../print/index.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jgraef2/seejoshmake/tree/master/print/cropit"
+    "url": "../../../print/cropit"
   },
   "bugs": {
     "url": "https://github.com/jgraef2/seejoshmake/tree/master/print/cropit/issues"
