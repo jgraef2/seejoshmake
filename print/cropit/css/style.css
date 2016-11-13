@@ -1,7 +1,19 @@
-* {
-  background-color: #f8f8f8;
+#upload {
+  background-color: #C1F5FE;
+  width: 100%;
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+.image-editor {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .cropit-preview {
+  text-align: center;
   background-color: #000;
   background-size: cover;
   border: 17px solid white;
@@ -9,12 +21,32 @@
   border-radius: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
   width: 300px;
   height: 300px;
 }
-
 .cropit-preview-image-container {
   cursor: move;
+}
+#export {
+  display: none;
+}
+#uploadbtn {
+  z-index: 500;
+  width: 500px;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+}
+#rotatebtn {
+  color: #FAD500;
+  opacity: .8;
+  position: absolute;
+  margin-top: -100px;
+  background-color:transparent;
+}
+.rotate-cw {
 }
 
 .image-size-label {
@@ -26,5 +58,14 @@ input, .export {
 }
 
 button {
-  margin-top: 10px;
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
 }
