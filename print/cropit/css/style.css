@@ -2,9 +2,10 @@
   background-color: #f8f8f8;
 }
 .cropit-preview {
-  background-color: #FFFFFF;
+  background-color: #000;
   background-size: cover;
-  border: 15px solid white;
+  border: 17px solid white;
+  border-bottom: 80px solid white;
   border-radius: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
