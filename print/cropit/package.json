@@ -16,7 +16,7 @@
   "homepage": "../../print/index.html",
   "repository": {
     "type": "git",
-    "url": "../../print/cropit/"
+    "url": "https://github.com/jgraef2/seejoshmake/tree/master/print/"
   },
   "bugs": {
     "url": "https://github.com/jgraef2/seejoshmake/tree/master/print/cropit/issues"
