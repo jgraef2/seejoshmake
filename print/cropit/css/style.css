@@ -1,7 +1,23 @@
 #upload {
   background-color: #C1F5FE;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+}
+#uploader {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  width: 300px;
+  text-align: center;
+}
+#slider {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
 }
 body {
   margin: 0;
@@ -12,19 +28,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.cropit-preview {
+#cropit-previewer {
   text-align: center;
   background-color: #000;
   background-size: cover;
   border: 17px solid white;
   border-bottom: 80px solid white;
   border-radius: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
-  height: 300px;
+  width: 334px;
+  height: 393px;
 }
 .cropit-preview-image-container {
   cursor: move;

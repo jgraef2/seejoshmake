@@ -8,19 +8,19 @@
     <link href="cropit/css/style.css" rel="stylesheet">
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!-- Plugin CSS -->
+    <!-- Plugin CSS  -->
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
 
-    <!-- Theme CSS -->
+    <!-- Theme CSS-->
     <link href="css/new-age.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -90,16 +90,16 @@
           </div>
       </div>
   </header>
-  <section id="upload">
+  <div id="upload">
+      <input type="file" class="cropit-image-input" id="uploader">
   <div class="image-editor">
-    <input type="file" class="cropit-image-input" id="uploadbtn">
-    <div class="cropit-preview"></div>
+    <div class="cropit-preview" id="cropit-previewer"></div>
     <div class="image-size-label">
     </div>
-    <input type="range" class="cropit-image-zoom-input">
     <button class="rotate-cw" id="rotatebtn"><i class="fa fa-rotate-right fa-2x"></i></button>
+    <div id="sliderdiv"><input type="range" class="cropit-image-zoom-input" id="slider"></div>
     <button id="export">Export</button>
-  </section>
+  </div>
 </main>
   <section id="contact" class="contact bg-primary">
       <div class="container">
