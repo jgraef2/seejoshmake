@@ -58,7 +58,7 @@ const options = {
         For example, if the preview size is \`300px * 200px\`, and \`exportZoom = 2\`, then
         the exported image size will be \`600px * 400px\`.
         This also affects the maximum zoom level, since the exported image cannot be zoomed to larger than its original size.`,
-      default: 1,
+      default: 2,
     },
     {
       name: 'allowDragNDrop',
