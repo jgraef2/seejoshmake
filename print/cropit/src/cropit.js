@@ -510,14 +510,14 @@ class Cropit {
     if (!this.image.src) { return; }
 
     const exportDefaults = {
-      type: 'image/png',
-      quality: 0.75,
-      originalSize: false,
+      type: 'image/jpeg',
+      quality: 1,
+      originalSize: true,
       fillBg: '#fff',
     };
     exportOptions = $.extend({}, exportDefaults, exportOptions);
 
-    const exportZoom = exportOptions.originalSize ? 1 / this.zoom : this.options.exportZoom;
+    const exportZoom = exportOptions.originalSize ? 2 / this.zoom : this.options.exportZoom;
 
     const zoomedSize = {
       width: this.zoom * exportZoom * this.image.width,
