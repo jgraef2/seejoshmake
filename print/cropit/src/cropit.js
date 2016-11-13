@@ -29,8 +29,8 @@ class Cropit {
     this.$zoomSlider = this.options.$zoomSlider.attr({ min: 0, max: 1, step: 0.01 });
 
     this.previewSize = {
-      width: this.options.width || this.$preview.width(),
-      height: this.options.height || this.$preview.height(),
+      width: this.options.width || this.$preview.innerWidth(),
+      height: this.options.height || this.$preview.innerHeight(),
     };
 
     this.$image = $('<img />')
@@ -643,10 +643,9 @@ class Cropit {
       width: size.width,
       height: size.height,
     };
-    this.$preview.css({
-      width: this.previewSize.width,
-      height: this.previewSize.height,
-    });
+    this.$preview
+      .innerWidth(this.previewSize.width)
+      .innerHeight(this.previewSize.height);
 
     if (this.imageLoaded) {
       this.setupZoomer();
