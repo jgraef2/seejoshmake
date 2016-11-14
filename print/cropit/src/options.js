@@ -49,7 +49,7 @@ const options = {
         The four array elements specify the width of background image width on the top, right, bottom, left side respectively.
         The background image beyond the width will be hidden.
         If specified as a number, border with uniform width on all sides will be applied.`,
-      default: [0, 0, 0, 0],
+      default: [17, 17, 17, 200],
     },
     {
       name: 'exportZoom',
