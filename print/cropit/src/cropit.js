@@ -517,7 +517,7 @@ class Cropit {
     };
     exportOptions = $.extend({}, exportDefaults, exportOptions);
 
-    const exportZoom = exportOptions.originalSize ? 2 / this.zoom : this.options.exportZoom;
+    const exportZoom = exportOptions.originalSize ? 1 / this.zoom : this.options.exportZoom;
 
     const zoomedSize = {
       width: this.zoom * exportZoom * this.image.width,
