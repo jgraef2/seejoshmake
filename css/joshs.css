@@ -4,6 +4,25 @@
 #howdytile {
  display: none;
 }
+.okay {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #FF4400;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white;
+    background: #FF4400;
+    margin-top:200px;
+}
 .introtile {
   background-image: url(../img/Josh.gif);
   background-padding: -5px;
@@ -19,6 +38,12 @@
   color:white;
   font-size: 1.65em;
   font-weight: 300;
+}
+.who1 {
+  width: 40%;
+}
+.who2 {
+  width: 40%;
 }
 #carousel-example-generic {
   height: 200px;
@@ -53,10 +78,11 @@
   padding-top: 20px;
   border-width: 1px;
 }
+#whoisjosh {
+}
 #whoisjosh p{
   color: white;
   text-align: center;
-  position: normal;
   font-size: 3em;
   font-weight: 300;
   line-height: 30px;
@@ -73,7 +99,6 @@
 }
 #whoisjosh a:hover {
   color: #FAD500;
-  background-image:
   text-decoration: none;
 }
 #about {
@@ -273,7 +298,7 @@
   margin-top: 50%;
   display:none;
 }
-.introtile{
+.introtile {
   background-color: #ff4400;
   /*background-image: url(../img/Josh.gif);*/
 }
