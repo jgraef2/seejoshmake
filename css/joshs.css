@@ -4,6 +4,24 @@
 #howdytile {
  display: none;
 }
+.emailonform {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  color:black;
+  font-size: 36px;
+  padding-top: 35px;
+}
+#footeremail {
+  background-color:#b22500;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  padding:10px;
+  font-size:28px;
+  height:60px;
+  color: white;
+}
 .okay {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
