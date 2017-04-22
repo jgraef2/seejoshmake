@@ -9,12 +9,12 @@
   font-weight: bold;
   text-align: center;
   width: 100%;
-  color:black;
+  color:#191919;
   font-size: 36px;
   padding-top: 35px;
 }
 #footeremail {
-  background-color:#b22500;
+  background-color:#ffd92b;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
   padding:10px;
@@ -33,12 +33,12 @@
 }
 ::-moz-selection { /* Code for Firefox */
     color: white;
-    background: black;
+    background: #191919;
 }
 
 ::selection {
     color: white;
-    background: #FF4400;
+    background: #191919;
     margin-top:200px;
 }
 .introtile {
@@ -88,7 +88,7 @@
   font-size:20px;
 }
 #contact {
-  background-color: #FAD500;
+  background-color: #ffd92b;
 }
 #resumebtn {
   font-size: 16px;
@@ -116,18 +116,13 @@
   text-decoration: underline;
 }
 #whoisjosh a:hover {
-  color: #FAD500;
+  color: #ffd92b;
   text-decoration: none;
 }
 #about {
-  background-color: #00CDC1;
+  background-color: #6fc5c7;
+  background-image: url(img/grain3.gif);
   padding-bottom: 100px;
-  background-image: url(../img/prof2.JPG);
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-position: top;
 }
 #footername {
   font-weight: 300;
@@ -137,7 +132,7 @@
   display: block;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 5em;
-  color: black;
+  color: #191919;
   text-align:center;
   font-weight: 700;
   line-height: 83px;
@@ -147,7 +142,7 @@
   display: block;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 5em;
-  color: black;
+  color: #191919;
   text-align:center;
   font-weight: 700;
   line-height: 83px;
@@ -157,7 +152,7 @@
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 5em;
   font-weight: 700;
-  color: black;
+  color: #191919;
   line-height: 83px;
 }
 #seejoshplaytype {
@@ -168,7 +163,7 @@
   line-height: 83px;
 }
 #whojoshtype {
-  color: white;
+  color: #191919;
   text-align:center;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 5em;
@@ -179,7 +174,7 @@
   width: 100%;
 }
 #thisisjoshtype {
-  color: black;
+  color: #191919;
   text-align:center;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 3em;
