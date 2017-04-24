@@ -100,10 +100,10 @@
   background-color: #ffd92b;
 }
 #resumebtn {
-  font-size: 30px;
+  text-align: center;
+  font-size: 35px;
   line-height: 30px;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 30px;
   border-width: 1px;
 }
 #whoisjosh {
@@ -125,6 +125,25 @@
   font-weight: 300;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+@media (max-width: 800px) {
+  #whoisjosh {
+    flex-direction:column-reverse;
+    text-align:center;
+  }
+  #child1 {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+    text-align: center;
+  }
+  #child2 {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+  }
+}
 #whoisjosh p{
   color: white;
   text-align: center;
@@ -143,13 +162,6 @@
 #whoisjosh a:hover {
   color: #0dd4e2;
   text-decoration: none;
-}
-.btncircle {
-  border-radius:50%;
-  height: 80px;
-  width: 80px;
-  background: white;
-  text-align: center;
 }
 #about {
   background-color: #0dd4e2;
@@ -366,6 +378,28 @@
 .portfolio-scaled {
   max-height: 600px;
 }
-.closebtn {
-  height: 200px;
+#closebtn{
+  height: 500px;
+  width: 100vw;
+  font-size: 100px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #FF4400;
+  color: white;
+  border: 0px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+#closebtn:hover {
+  color: #191919;
+}
+#closebtnold{
+  height: 150px;
+  width: 150px;
+  font-size: 30px;
+  border-radius: 50%;
+  margin-bottom: 300px;
 }
