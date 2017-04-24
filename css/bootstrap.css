@@ -5472,6 +5472,7 @@ a.list-group-item-danger.active:focus {
 }
 button.close {
   padding: 0;
+  padding-bottom: 200px;
   cursor: pointer;
   background: transparent;
   border: 0;
@@ -5557,7 +5558,12 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 20px;
+  width:100%;
+}
+.modal-body img {
+  width:100%;
+  padding:0;
+  margin:0;
 }
 .modal-footer {
   padding: 20px;
