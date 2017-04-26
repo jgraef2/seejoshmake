@@ -41,23 +41,17 @@
     background: #191919;
     margin-top:200px;
 }
-.portheader1 {
+.portheader {
   width:100vw;
   height:100vh;
   padding-top: 15%;
   margin: 0 auto;
-  background-color: cyan;
-  color:brown;
+  background-color: #51C7DE;
   text-align: center;
 }
 .introtile {
-  background-color: #FF4400;
-  background-image: url(../img/Josh.gif), url(../img/OrangeWrinkle.jpg);
-  background-blend-mode: screen, normal;
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
-  background-position: center;
-  background-position: top;
+  background-image: url("../img/Josh.gif");
+  background-size: cover;
   height: 800px;
 }
 .secondtype {
@@ -89,17 +83,8 @@
   padding-top:12%;
 
 }
-#joshcanhelptext {
-  line-height: 99px;
-  color: white;
-}
-#letschat {
-  font-size:20px;
-}
 #contact {
   background-color: #ffd92b;
-  background-image: url("../img/Grain3.png");
-  background-size: 40%;
   border: 0px;
 }
 #resumebtn {
@@ -169,10 +154,8 @@
 }
 #about {
   background-color: #0dd4e2;
-  background-image: url(../img/BlueBG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: luminosity;
   padding-bottom: 200px;
 }
 #footername {
@@ -205,6 +188,7 @@
   font-weight: 700;
   color: #191919;
   line-height: 83px;
+  letter-spacing: -4px;
 }
 #seejoshplaytype {
   color: white;
@@ -223,6 +207,7 @@
   position: relative;
   margin-bottom: 5px;
   width: 100%;
+  letter-spacing: -4px;
 }
 #thisisjoshtype {
   color: #191919;
@@ -234,17 +219,30 @@
   position: relative;
   margin-bottom: 10px;
   width: 100%;
+  letter-spacing: -4px;
 }
 #portheadline {
   color: #191919;
   text-align:center;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 8em;
-  line-height: 83px;
+  font-size: 10vw;
+  line-height: 9vw;
+  letter-spacing: -.3vw;
   font-weight: 700;
   margin: 0 auto;
   width: 100vw;
   padding-bottom: 100px;
+}
+.portfolio-modal p {
+  color: #191919;
+  text-align:center;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2vw;
+  line-height: 3vw;
+  font-weight: 300;
+  margin: 0 auto;
+  width: 100vw;
+  padding: 5vw;
 }
 #sendbtn {
   margin-left: 44%;
@@ -254,8 +252,6 @@
 }
 #nav {
   background-color: transparent;
-  background-size: 50%;
-  z-index: 5000000;
 }
 @media (max-width: 300px) {
   .introtile {
@@ -274,9 +270,6 @@
     margin-left: 34%;
     padding: none;
     right: auto 0;
-  }
-  .introtile {
-    background-image: url(../img/josh.jpg);
   }
 }
 @media (min-width: 300px) {
@@ -327,7 +320,7 @@
     line-height: 125px;
   }
   #thisisjoshtype {
-    font-size: 8em;
+    font-size: 7em;
     line-height: 125px;
   }
   #nav {
@@ -351,6 +344,10 @@
 @media (min-width: 992px) {
   .introtile {
     height: 900px;
+  }
+  #thisisjoshtype {
+    font-size: 8em;
+    line-height: 150px;
   }
 }
 @media (min-width: 1200px) {
