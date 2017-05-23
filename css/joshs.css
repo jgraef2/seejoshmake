@@ -8,10 +8,14 @@
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
   text-align: center;
-  width: 100%;
   color:#191919;
   font-size: 36px;
   padding-top: 35px;
+}
+@media (max-width: 500px) {
+  .emailonform {
+    font-size: 18px;
+  }
 }
 #footeremail {
   background-color:#ffd92b;
@@ -44,6 +48,8 @@
 .portheader {
   width:100vw;
   height:100vh;
+  min-height: 50vw;
+  max-height:80vw;
   padding-top: 15%;
   margin: 0 auto;
   background-color: #51C7DE;
@@ -100,6 +106,7 @@
 }
 #child1 {
   width: 49%;
+  min-height: 500px;
   padding-left: 10%;
   text-align: right;
   padding-right: 5%;
@@ -109,6 +116,7 @@
 #child2 {
   color: #191919;
   width: 49%;
+  max-width: 840px;
   padding-right: 10%;
   font-size: 30px;
   font-weight: 300;
@@ -219,7 +227,7 @@
   position: relative;
   margin-bottom: 10px;
   width: 100%;
-  letter-spacing: -4px;
+  letter-spacing: -1px;
 }
 #portheadline {
   color: #191919;
@@ -286,6 +294,7 @@
   }
   #thisisjoshtype {
     font-size: 5em;
+    letter-spacing: -2px;
   }
   #whojoshtype {
     font-size: 5em;
@@ -322,6 +331,7 @@
   #thisisjoshtype {
     font-size: 7em;
     line-height: 125px;
+    letter-spacing: -3px;
   }
   #nav {
     background-color:#ff4400;
@@ -348,11 +358,24 @@
   #thisisjoshtype {
     font-size: 8em;
     line-height: 150px;
+    letter-spacing: -4px;
   }
 }
 @media (min-width: 1200px) {
   .introtile {
     height: 1100px;
+  }
+  #thisisjoshtype {
+    font-size: 10em;
+  }
+  .secondtype {
+    line-height: 2.8em;
+    font-size: 3.3em;
+  }
+}
+@media (min-width: 1600px) {
+  #thisisjoshtype {
+    font-size: 13em;
   }
 }
 #chevronadjust {
@@ -382,7 +405,7 @@
   text-align: center;
   padding-right: 37px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #uncollnav {
     width: 105vw;
     padding: 50px;
