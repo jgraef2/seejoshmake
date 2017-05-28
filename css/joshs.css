@@ -52,7 +52,7 @@
   max-height:80vw;
   padding-top: 15%;
   margin: 0 auto;
-  background-color: #51C7DE;
+  background-color: white;
   text-align: center;
 }
 .introtile {
@@ -164,7 +164,7 @@
   background-color: #0dd4e2;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 75px;
 }
 #footername {
   font-weight: 300;
@@ -230,7 +230,6 @@
   letter-spacing: -1px;
 }
 #portheadline {
-  color: #191919;
   text-align:center;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 10vw;
@@ -242,7 +241,6 @@
   padding-bottom: 100px;
 }
 .portfolio-modal p {
-  color: #191919;
   text-align:center;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 2vw;
