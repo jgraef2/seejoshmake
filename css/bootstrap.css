@@ -5564,11 +5564,16 @@ button.close {
 .modal-body {
   position: relative;
   width:100%;
+  border-top: 0.8vw solid white;
 }
 .modal-body img {
   width:100%;
+  max-width:1800px;
   padding:0;
-  margin:0;
+  margin:0 auto;
+  text-align: center;
+  border: 1px solid white;
+  border-width: 0.8vw 1.6vw 0.8vw 1.6vw;
 }
 .modal-footer {
   padding: 20px;
