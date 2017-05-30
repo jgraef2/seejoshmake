@@ -10,17 +10,17 @@
   background-position:center;
   background-size: 100vw;
   background-repeat: no-repeat;
-  border: 1vw solid white;
+  border: 0.8vw solid white;
 }
 @media (min-width:769px) {
-  .pimg1 {
+  .cp9 {
     background-image: url("../img/portfolio/cp9.gif");
   }
 }
 
 
 @media (max-width:768px) {
-  .pimg1 {
+  .cp9 {
     background-image: url("../img/portfolio/cp9s.gif")
   }
 }
