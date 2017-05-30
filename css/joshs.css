@@ -73,6 +73,13 @@
   padding-top: 1%;
   padding-bottom: 10vw;
 }
+.footer-above a {
+  text-decoration: underline;
+  color: white;
+}
+.footer-above a:hover {
+  color: #262626;
+}
 .introtile {
   background-image: url("../img/Josh.gif");
   background-size: cover;
