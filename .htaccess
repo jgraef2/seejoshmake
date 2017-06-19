@@ -13,7 +13,7 @@
   ExpiresByType image/x-icon              "access plus 1 week"
 
 # Media: images, video, audio
-  ExpiresByType image/gif                 "access plus 1 months"
+  ExpiresByType image/gif                 "access plus 365 days"
   ExpiresByType image/png                 "access plus 1 months"
   ExpiresByType image/jpeg                "access plus 1 months"
   ExpiresByType video/ogg                 "access plus 1 months"
