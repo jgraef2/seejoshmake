@@ -92,11 +92,10 @@
   background-image: url("../img/Josh.gif");
   background-size: cover;
   height: 800px;
-  -webkit-animation: fadein 4s; /* Safari and Chrome */
-  -moz-animation: fadein 4s; /* Firefox */
-  -ms-animation: fadein 4s; /* Internet Explorer */
-  -o-animation: fadein 4s; /* Opera */
-  animation: fadein 4s;
+  -webkit-transition: background 300ms ease-in 200ms;
+  -moz-transition: background 300ms ease-in 200ms;
+  -o-transition: background 300ms ease-in 200ms;
+  transition: background 300ms ease-in 200ms;
 }
 .secondtype {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
