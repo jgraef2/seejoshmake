@@ -92,10 +92,6 @@
   background-image: url("../img/Josh.gif");
   background-size: cover;
   height: 800px;
-  -webkit-transition:  900ms ease-in 700ms;
-  -moz-transition:  900ms ease-in 700ms;
-  -o-transition:  900ms ease-in 700ms;
-  transition:  900ms ease-in 700ms;
 }
 .secondtype {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
