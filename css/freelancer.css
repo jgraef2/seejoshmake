@@ -193,9 +193,6 @@ section.success {
     section.first {
         padding-top: 75px;
     }
-    .introtile {
-      height: 300px;
-    }
 }
 
 #portfolio .portfolio-item {
@@ -342,6 +339,7 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+    background-color: #ffd92b;
 }
 
 footer h3 {
@@ -349,9 +347,15 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 0px;
-    padding-bottom: 2%;
-    background-color: #ffd92b;
+    padding-top: 21vw;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1vw;
+}
+@media (max-width: 768px) {
+  footer .footer-above {
+    font-size: 2.3vw;
+    padding-top: 52vw;
+  }
 }
 
 footer .footer-col {

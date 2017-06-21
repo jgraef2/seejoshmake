@@ -91,7 +91,6 @@
 .introtile {
   background-image: url("../img/Josh.gif");
   background-size: cover;
-  height: 800px;
 }
 .secondtype {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -292,6 +291,71 @@
 #portfolio {
   outline: none;
 }
+#footbadge {
+  background-image: url("../img/footbadgelarge.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 25vw;
+  margin: 0 auto;
+}
+#foot0 {
+  background-image: url("../img/footlg0.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 5vw;
+  margin: 0 auto;
+  margin-top:-68px;
+}
+@media (max-width: 1400px) {
+  #foot0 {
+    margin-top: -50px;
+  }
+}
+@media (max-width: 993px) {
+  #foot0 {
+    margin-top: -30px;
+  }
+}
+#foot1 {
+  background-image: url("../img/footlg1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 4vw;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+#foot2 {
+  background-image: url("../img/footlg2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 4vw;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  #footbadge {
+    background-image: url("../img/footerbadgesmall.gif");
+    height: 60vw;
+  }
+  #foot0 {
+    background-image: url("../img/footsm0.gif");
+      height: 10vw;
+  }
+  #foot1 {
+    background-image: url("../img/footsm1.gif");
+      height: 10vw;
+  }
+  #foot2 {
+    background-image: url("../img/footsm2.gif");
+      height: 10vw;
+  }
+}
 @media (max-width: 768px) {
   .portfolio-modal p {
     font-size: 3.5vw;
@@ -328,7 +392,7 @@
 }
 @media (min-width: 300px) {
   .introtile {
-    height: 320px;
+    height: 300px;
   }
 }
 @media (min-width: 500px) {
@@ -350,10 +414,13 @@
 }
 @media (min-width: 650px) {
   .introtile {
-    height: 590px;
+    height: 550px;
   }
 }
 @media (min-width: 768px) {
+  .introtile {
+    height: 660px;
+  }
   #makesthings {
     line-height: 125px;
     font-size: 8em;
@@ -399,7 +466,7 @@
 }
 @media (min-width: 992px) {
   .introtile {
-    height: 900px;
+    height: 800px;
   }
   #thisisjoshtype {
     font-size: 8em;
@@ -409,7 +476,7 @@
 }
 @media (min-width: 1200px) {
   .introtile {
-    height: 1100px;
+    height: 1000px;
   }
   #thisisjoshtype {
     font-size: 10em;
