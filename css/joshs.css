@@ -284,6 +284,9 @@
   width: 100vw;
   padding: 5vw;
 }
+#portfolio {
+  outline: none;
+}
 @media (max-width: 768px) {
   .portfolio-modal p {
     font-size: 3.5vw;
