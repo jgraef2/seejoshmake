@@ -193,6 +193,11 @@
   color: #0dd4e2;
   text-decoration: none;
 }
+#whoisjosh a:focus {
+  color: white;
+  background-color: #0dd4e2;
+  text-decoration: none;
+}
 #about {
   background-color: #0dd4e2;
   background-repeat: no-repeat;
