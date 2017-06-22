@@ -4,6 +4,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ jQuery(function($) {
+    $('.portfolio-modal').on('scroll', function() {
+        if($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+          //  alert('end reached');
+          $('.portfolio-modal').modal('hide');
+            this.$element.on('[data-dismiss="modal"]', $.proxy(this.hide, this))
+        }
+    })
+});
+
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }

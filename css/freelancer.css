@@ -199,13 +199,12 @@ section.success {
     right: 0;
     margin: 0 0 15px;
 }
-#portfolio {
-}
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 450px;
+    max-height: 325px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
