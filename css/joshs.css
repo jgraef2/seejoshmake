@@ -88,9 +88,24 @@
 .footer-above a:hover {
   color: #262626;
 }
+.intrograd {
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100vw;
+  height: 70vw;
+  position: absolute;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+12,0.5+25,0+50,0.5+78,1+89 */
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 12%, rgba(255,255,255,0.5) 25%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 78%, rgba(255,255,255,1) 89%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 12%,rgba(255,255,255,0.5) 25%,rgba(255,255,255,0) 50%,rgba(255,255,255,0.5) 78%,rgba(255,255,255,1) 89%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 12%,rgba(255,255,255,0.5) 25%,rgba(255,255,255,0) 50%,rgba(255,255,255,0.5) 78%,rgba(255,255,255,1) 89%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
 .introtile {
   background-image: url("../img/bwjosh.gif");
   background-size: cover;
+  width: 80vw;
+  margin:0 auto;
 }
 .secondtype {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -522,7 +537,7 @@
   display:none;
 }
 .introtile {
-  background-color: #191919;
+
   /*background-image: url(../img/Josh.gif);*/
 }
 #uncollnav {
@@ -555,7 +570,7 @@
   padding-top: 5vw;
 }
 #closebtn{
-  height: 110vh;
+  height: 95vh;
   width: 100vw;
   font-size: 10vw;
   margin-bottom: 0px;
@@ -581,4 +596,8 @@
   font-size: 30px;
   border-radius: 50%;
   margin-bottom: 300px;
+}
+#introtile {
+  width: 80vw;
+  height: 65vw;
 }

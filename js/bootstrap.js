@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+//At end of portfolio modal, close modal.
  jQuery(function($) {
     $('.portfolio-modal').on('scroll', function() {
         if($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
@@ -12,6 +13,19 @@
             this.$element.on('[data-dismiss="modal"]', $.proxy(this.hide, this))
         }
     })
+});
+
+$(function() {
+  $('.close-modal').hover(function() {
+    $('.portfolio-modal').css('opacity', '0.8');
+    $('#close-m').css('opacity', '1.0');
+    $('.close-modal').css('background-color', 'gray');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('.portfolio-modal').css('opacity', '1.0');
+    $('#close-m').css('opacity', '1.0');
+    $('.close-modal').css('background-color', 'white');
+  });
 });
 
 if (typeof jQuery === 'undefined') {
