@@ -1109,7 +1109,7 @@ var globalLazyLoad = new LazyLoad();
 
 var modalLazyLoad;
 $('.modal')
-        .bind('shown.bs.modal', function () {
+        .bind('show.bs.modal', function () {
             modalLazyLoad = new LazyLoad({
                 container: this
             });
@@ -1117,14 +1117,6 @@ $('.modal')
         .bind('hidden.bs.modal', function () {
             modalLazyLoad.destroy();
         });
-
-
-
-  $('#<?php echo $target;?>').on("shown.bs.modal", function(){
-  $("img.lazy_load").LazyLoad({
-     container:$("#portfolioModal15")
-  });
-});
 </script>
 </body>
 
