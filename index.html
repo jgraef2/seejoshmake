@@ -1112,6 +1112,8 @@ $('.modal')
         .bind('show.bs.modal', function () {
             modalLazyLoad = new LazyLoad({
                 container: this
+            });
+            modalLazyLoad = new LazyLoad({
                 threshold: 5000
             });
         })
