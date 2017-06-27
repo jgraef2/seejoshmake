@@ -20,7 +20,7 @@
         var elements = this;
         var $container;
         var settings = {
-            threshold       : 5000,
+            threshold       : 0,
             failure_limit   : 0,
             event           : "scroll",
             effect          : "show",
