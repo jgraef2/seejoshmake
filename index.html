@@ -50,48 +50,6 @@
 
     <meta name="viewport" content="user-scalable=yes, width=450" />
 
-    <script>
-    $('.portfolio-modal').on("show.bs.modal", function () {
-    $('.lazy_load').each(function(){
-        var img = $(this);
-        img.attr('src', img.data('src'));
-      });
-    });
-    </script>
- 
-    <script>
-    $('#<?php echo $target;?>').on("shown.bs.modal", function(){
-      $("img.lazy").lazyload({
-         container:$("#portfolioModal6")
-      });
-    });
-    </script>
-
-    <script>
-function lazyLoad(){
-    var $images = $('.lazy_load');
-
-    $images.each(function(){
-        var $img = $(this),
-            src = $img.attr('data-src');
-
-        $img
-            .on('load',imgLoaded($img[0]))
-            .attr('src',src);
-        });
-    };
-
-    $('.modal-body').on("show.bs.modal", function () {
-      lazyLoad();
-    });
-
-
-    var lazyLoad = new LazyLoad();
-    $('.modal').on('shown.bs.modal', function () {
-        lazyLoad.update();
-    });
-</script>
-
 </head>
 
 <body id="page-top" class="index">
@@ -1023,6 +981,48 @@ Copyright &copy; Josh Graef 2017
   </script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58364036749604c1"></script>
+
+<script>
+$('.portfolio-modal').on("show.bs.modal", function () {
+$('.lazy_load').each(function(){
+    var img = $(this);
+    img.attr('src', img.data('src'));
+  });
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/7.2.0/lazyload.transpiled.min.js"></script>
+<script>
+$('#<?php echo $target;?>').on("shown.bs.modal", function(){
+  $("img.lazy").lazyload({
+     container:$("#portfolioModal6")
+  });
+});
+</script>
+
+<script>
+function lazyLoad(){
+var $images = $('.lazy_load');
+
+$images.each(function(){
+    var $img = $(this),
+        src = $img.attr('data-src');
+
+    $img
+        .on('load',imgLoaded($img[0]))
+        .attr('src',src);
+    });
+};
+
+$('.modal-body').on("show.bs.modal", function () {
+  lazyLoad();
+});
+
+
+var lazyLoad = new LazyLoad();
+$('.modal').on('shown.bs.modal', function () {
+    lazyLoad.update();
+});
+</script>
 
 </body>
 
