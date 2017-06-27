@@ -15,9 +15,9 @@
     })
 });
 
-$(function() {
+/* $(function() {
   $('.close-modal').hover(function() {
-    $('.portfolio-modal').css('opacity', '0.8');
+    $('.portfolio-modal').css('opacity', '0.1');
     $('#close-m').css('opacity', '1.0');
     $('.close-modal').css('background-color', 'gray');
   }, function() {
@@ -27,7 +27,7 @@ $(function() {
     $('.close-modal').css('background-color', 'white');
   });
 });
-
+*/
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }

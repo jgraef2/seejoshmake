@@ -49,6 +49,15 @@
     <meta name="theme-color" content="#ffffff">
 
     <meta name="viewport" content="user-scalable=yes, width=450" />
+
+    <script>
+    $('.portfolio-modal').on("show.bs.modal", function () {
+    $('.lazy_load').each(function(){
+        var img = $(this);
+        img.attr('src', img.data('src'));
+      });
+    });
+    </script>
 </head>
 
 <body id="page-top" class="index">
@@ -928,19 +937,19 @@ Copyright &copy; Josh Graef 2017
                 <div>
                     <div>
                         <div class="modal-body">
-                          <img src="img/portfolio/kt1.gif" class="img-responsive img-centered" alt="Woodworking intro hand holding handle with book laying in sawdust.">
-                          <img src="img/portfolio/kt2.gif" class="img-responsive img-centered" alt="I first began my woodworking career, getting started, introduction to story.">
-                          <img src="img/portfolio/kt3.gif" class="img-responsive img-centered" alt="Trebuchet project woodworking engineering pumpkin flinging machine catapult.">
-                          <img src="img/portfolio/kt4.gif" class="img-responsive img-centered" alt="Slideshow box wooden photo slides linux old laptop building computers.">
-                          <img src="img/portfolio/kt5.gif" class="img-responsive img-centered" alt="Process for creating slideshow box.">
-                          <img src="img/portfolio/kt6.gif" class="img-responsive img-centered" alt="Plaque burning hand lettering and wood working.">
-                          <img src="img/portfolio/kt7.gif" class="img-responsive img-centered" alt="Light table creation from old computer monitor backlight.">
-                          <img src="img/portfolio/kt8.gif" class="img-responsive img-centered" alt="Process for light table creation.">
-                          <img src="img/portfolio/kt9.gif" class="img-responsive img-centered" alt="Ampersand table saw woodworking.">
-                          <img src="img/portfolio/kt10.gif" class="img-responsive img-centered" alt="Puzzle piece coaster woodworking spread story.">
-                          <img src="img/portfolio/kt11.gif" class="img-responsive img-centered" alt="Finger rings hand showing scroll saw created jewelry.">
-                          <img src="img/portfolio/kt12.gif" class="img-responsive img-centered" alt="Four suits sign from Cute Philosophy shirt design.">
-                          <img src="img/portfolio/kt13.gif" class="img-responsive img-centered" alt="Photograph showing cover of book design To Kill A tree.">
+                          <img src="img/portfolio/kt1.gif" class="img-responsive img-centered lazy_load" alt="Woodworking intro hand holding handle with book laying in sawdust.">
+                          <img src="img/portfolio/kt2.gif" class="img-responsive img-centered lazy_load" alt="I first began my woodworking career, getting started, introduction to story.">
+                          <img src="img/portfolio/kt3.gif" class="img-responsive img-centered lazy_load" alt="Trebuchet project woodworking engineering pumpkin flinging machine catapult.">
+                          <img src="img/portfolio/kt4.gif" class="img-responsive img-centered lazy_load" alt="Slideshow box wooden photo slides linux old laptop building computers.">
+                          <img src="img/portfolio/kt5.gif" class="img-responsive img-centered lazy_load" alt="Process for creating slideshow box.">
+                          <img src="img/portfolio/kt6.gif" class="img-responsive img-centered lazy_load" alt="Plaque burning hand lettering and wood working.">
+                          <img src="img/portfolio/kt7.gif" class="img-responsive img-centered lazy_load" alt="Light table creation from old computer monitor backlight.">
+                          <img src="img/portfolio/kt8.gif" class="img-responsive img-centered lazy_load" alt="Process for light table creation.">
+                          <img src="img/portfolio/kt9.gif" class="img-responsive img-centered lazy_load" alt="Ampersand table saw woodworking.">
+                          <img src="img/portfolio/kt10.gif" class="img-responsive img-centered lazy_load" alt="Puzzle piece coaster woodworking spread story.">
+                          <img src="img/portfolio/kt11.gif" class="img-responsive img-centered lazy_load" alt="Finger rings hand showing scroll saw created jewelry.">
+                          <img src="img/portfolio/kt12.gif" class="img-responsive img-centered lazy_load" alt="Four suits sign from Cute Philosophy shirt design.">
+                          <img src="img/portfolio/kt13.gif" class="img-responsive img-centered lazy_load" alt="Photograph showing cover of book design To Kill A tree.">
                             <button type="button" class="btn btn-default" id="closebtn" data-dismiss="modal"> </button>
                         </div>
                     </div>
@@ -977,8 +986,8 @@ Copyright &copy; Josh Graef 2017
 
   ga('create', 'UA-86955399-1', 'auto');
   ga('send', 'pageview');
+  </script>
 
-</script>
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58364036749604c1"></script>
 
 </body>
