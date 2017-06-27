@@ -1045,8 +1045,10 @@ $(document).ready(function() {
 -->
 
 <script>
-$(function() {
-    $("img.lazy").lazyload();
+$(window).ready(function() {
+    $("img.lazy").lazyload({
+        effect : "fadeIn"
+    });
 });
 </script>
 </body>
