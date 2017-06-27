@@ -5485,12 +5485,13 @@ button.close {
 }
 .modal-open {
   overflow: hidden;
+  top: 0;
 }
 .modal {
   display: none;
   overflow: hidden;
   position: fixed;
-  top: 0;
+  top: 5000px;
   right: 0;
   bottom: 0;
   left: 0;
