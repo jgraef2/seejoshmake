@@ -4,8 +4,8 @@
 #howdytile {
  display: none;
 }
-img::before {
-  background-color: white;
+.loading {
+  height: 800px;
 }
 .emailonform {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
