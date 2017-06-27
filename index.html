@@ -1117,6 +1117,14 @@ $('.modal')
         .bind('hidden.bs.modal', function () {
             modalLazyLoad.destroy();
         });
+
+
+
+  $('#<?php echo $target;?>').on("shown.bs.modal", function(){
+  $("img.lazy_load").LazyLoad({
+     container:$("#portfolioModal15")
+  });
+});
 </script>
 </body>
 
