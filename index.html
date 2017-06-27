@@ -58,6 +58,27 @@
       });
     });
     </script>
+
+    <script>
+function lazyLoad(){
+    var $images = $('.lazy_load');
+
+    $images.each(function(){
+        var $img = $(this),
+            src = $img.attr('data-src');
+
+        $img
+            .on('load',imgLoaded($img[0]))
+            .attr('src',src);
+        });
+    };
+
+    $('.modal-body').on("show.bs.modal", function () {
+      lazyLoad();
+    });          
+
+</script>
+
 </head>
 
 <body id="page-top" class="index">
