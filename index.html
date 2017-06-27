@@ -1050,8 +1050,12 @@ $(window).ready(function() {
         effect : "fadeIn"
     });
 });
-$("img.lazy").lazyload({
-    container: $("#allmodals")
+
+$(window).ready(function() {
+    $("img.lazy").lazyload({
+        container: $("#allmodals")
+        effect : "fadeIn"
+    });
 });
 </script>
 </body>
