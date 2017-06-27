@@ -402,6 +402,8 @@ Copyright &copy; Josh Graef 2017
         </div>
     </footer>
 
+    <div id=bottomspace></div>
+
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll visible-xs visible-sm">
         <a id="chevronadjust" class="btn btn-primary" href="#page-top">
@@ -1049,6 +1051,9 @@ $(window).ready(function() {
     $("img.lazy").lazyload({
         effect : "fadeIn"
     });
+    $("img.lazy").lazyload({
+    threshold : 200
+});
 });
 $(window).ready(function() {
     $("img.lazy").lazyload({
