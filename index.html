@@ -1111,9 +1111,11 @@ var globalLazyLoad = new LazyLoad();
 var modalLazyLoad;
 $('.modal')
         .bind('show.bs.modal', function () {
-            threshold: 500
             modalLazyLoad = new LazyLoad({
                 container: this
+            });
+            modalLazyLoad = new LazyLoad({
+                threshold: 5000
             });
         })
         .bind('hidden.bs.modal', function () {
