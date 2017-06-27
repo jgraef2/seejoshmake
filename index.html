@@ -1049,14 +1049,14 @@ $(window).ready(function() {
     $("img.lazy").lazyload({
         effect : "fadeIn"
     });
-    $("img.lazy").lazyload({
-        threshold : 200
-    });
 });
 $(window).ready(function() {
     $("img.lazy").lazyload({
         container: $("#portfolioModal1")
     });
+    $("#portfolioModal1").lazyload({
+      threshold : 300
+    })
     $("img.lazy").lazyload({
         container: $("#portfolioModal2")
     });
