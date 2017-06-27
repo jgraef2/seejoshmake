@@ -1051,6 +1051,9 @@ $(window).ready(function() {
     $("img.lazy").lazyload({
         effect : "fadeIn"
     });
+    $("img.lazy").lazyload({
+        threshold : 200
+    });
 });
 $(window).ready(function() {
     $("img.lazy").lazyload({
@@ -1093,7 +1096,6 @@ $(window).ready(function() {
         container: $("#portfolioModal13")
     });
     $("img.lazy").lazyload({
-        threshold : 200
         container: $("#portfolioModal14")
     });
     $("img.lazy").lazyload({
