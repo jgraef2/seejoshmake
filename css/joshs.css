@@ -4,7 +4,7 @@
 #howdytile {
  display: none;
 }
-img {
+img::before {
   background-color: white;
 }
 .emailonform {
