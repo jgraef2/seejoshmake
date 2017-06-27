@@ -1114,9 +1114,6 @@ $('.modal')
             modalLazyLoad = new LazyLoad({
                 container: this
             });
-            modalLazyLoad = new LazyLoad({
-                threshold: 5000
-            });
         })
         .bind('hidden.bs.modal', function () {
             modalLazyLoad.destroy();
