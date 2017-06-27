@@ -75,8 +75,14 @@ function lazyLoad(){
 
     $('.modal-body').on("show.bs.modal", function () {
       lazyLoad();
-    });          
+    });
 
+
+
+    var lazyLoad = new LazyLoad();
+    $('.modal').on('shown.bs.modal', function () {
+        lazyLoad.update();
+    });
 </script>
 
 </head>
