@@ -4,6 +4,9 @@
 #howdytile {
  display: none;
 }
+img {
+  background-color: white;
+}
 .emailonform {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;

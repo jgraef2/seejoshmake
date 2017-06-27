@@ -1054,9 +1054,6 @@ $(window).ready(function() {
     $("img.lazy").lazyload({
         container: $("#portfolioModal1")
     });
-    $("#portfolioModal1").lazyload({
-      threshold : 5000
-    })
     $("img.lazy").lazyload({
         container: $("#portfolioModal2")
     });
@@ -1099,8 +1096,8 @@ $(window).ready(function() {
     $("img.lazy").lazyload({
         container: $("#portfolioModal15")
     });
-    $("#portfolioModal15").lazyload({
-      threshold : 5000
+    $("img.portfolio-modal").lazyload({
+      threshold : 9000
     })
 });
 
