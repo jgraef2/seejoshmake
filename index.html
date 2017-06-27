@@ -58,6 +58,14 @@
       });
     });
     </script>
+ 
+    <script>
+    $('#<?php echo $target;?>').on("shown.bs.modal", function(){
+      $("img.lazy").lazyload({
+         container:$("#portfolioModal6")
+      });
+    });
+    </script>
 
     <script>
 function lazyLoad(){
@@ -76,7 +84,6 @@ function lazyLoad(){
     $('.modal-body').on("show.bs.modal", function () {
       lazyLoad();
     });
-
 
 
     var lazyLoad = new LazyLoad();
