@@ -107,6 +107,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   width: 80vw;
   margin:0 auto;
 }
+@media (max-width: 768px) {
+  .introtile {
+    background-image: url("../img/bwjoshsm.gif");
+  }
+}
 .secondtype {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color:white;
@@ -534,10 +539,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   position: absolute;
   margin-top: 50%;
   display:none;
-}
-.introtile {
-
-  /*background-image: url(../img/Josh.gif);*/
 }
 #uncollnav {
   width: 100%;
