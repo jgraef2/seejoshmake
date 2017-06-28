@@ -15,6 +15,16 @@
     })
 });
 
+lis[i].onmouseover = function() {
+    // Adds the 'hovered' class
+    this.caption = this.caption + " hovered";
+}
+lis[i].onmouseout = function() {
+    // Removes the 'hovered' class
+    this.caption = this.caption.split(' ').filter(function(v) {
+        return v!='hovered'
+    }).join(' ');
+}
 /*
 $(function() {
   $('.close-modal').hover(function() {
