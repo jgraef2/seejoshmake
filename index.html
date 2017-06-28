@@ -1004,6 +1004,16 @@ $('.modal')
             modalLazyLoad.destroy();
         });
 </script>
+
+<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+  <script>
+    imagesLoaded('.bgloaded', {
+      background: true
+    }, function(document.body.className += 'bgloaded') {
+      console.log('body background image loaded');
+    });
+  </script>
+
 </body>
 
 </html>
