@@ -600,21 +600,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
 }
+@media (max-height: 768px) {
+  #closebtn {
+    height: 100vh;
+    margin-bottom: 0;
+  }
+}
+
 #closebtn .fa-arrow-down {
   font-size: 3vw;
-}
-#closecontainer {
-  height: 130vh;
-  width: 100vw;
-  display:inline-block;
-  background-color: transparent;
-}
-#closebtnold{
-  height: 150px;
-  width: 150px;
-  font-size: 30px;
-  border-radius: 50%;
-  margin-bottom: 300px;
 }
 #introtile {
   width: 80vw;
