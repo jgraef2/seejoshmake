@@ -107,14 +107,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   width: 80vw;
   margin:0 auto;
 }
+.bgloaded {
+  background-image: url("../img/bwjosh.gif");
+}
 @media (max-width: 768px) {
   .bgloaded {
     background-image: url("../img/bwjoshsm.gif");
   }
 }
-.bgloaded {
-  background-image: url("../img/bwjosh.gif");
-}
+
 .secondtype {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color:white;
