@@ -102,15 +102,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .introtile {
-  background-image: url("../img/bwjoshsm.gif");
+  background-image: url("../img/bwjoshframe.gif");
   background-size: cover;
   width: 80vw;
   margin:0 auto;
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .introtile {
-    background-image: url("../img/bwjoshframe.gif")
+    background-image: url("../img/bwjoshsm.gif")
   }
 }
 /*
