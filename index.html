@@ -50,6 +50,16 @@
 
     <meta name="viewport" content="user-scalable=yes, width=450" />
 
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+      <script>
+        imagesLoaded('.bgloaded', {
+            background: true
+          }, function() {
+            console.log('body background image loaded');
+            document.getElementsByClassName('introtile')[0].className+=' bgloaded';
+    });
+    </script>
+    
 </head>
 
 <body id="page-top" class="index">
@@ -1003,25 +1013,6 @@ $('.modal')
         .bind('hidden.bs.modal', function () {
             modalLazyLoad.destroy();
         });
-</script>
-
-<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
-  <script>
-    imagesLoaded('.bgloaded', {
-      background: true
-    }, function(document.introtile.className += 'bgloaded') {
-      console.log('body background image loaded');
-    });
-  </script>
-
-  <script>
-    imagesLoaded('.bgloaded', {
-        background: true
-      }, function() {
-        console.log('body background image loaded');
-        document.getElementsByClassName('introtile')[0].className+=' bgloaded';
-});
-
 </script>
 
 </body>
