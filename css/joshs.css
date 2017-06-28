@@ -114,7 +114,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .bgloaded {
   background-image: url("../img/bwjosh.gif");
-  /* Animated */
 }
 .secondtype {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;

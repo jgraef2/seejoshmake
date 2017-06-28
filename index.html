@@ -1014,6 +1014,16 @@ $('.modal')
     });
   </script>
 
+  <script>
+    imagesLoaded('.bgloaded', {
+        background: true
+      }, function() {
+        console.log('body background image loaded');
+        document.getElementsByClassName('introtile')[0].className+=' bgloaded';
+});
+
+</script>
+
 </body>
 
 </html>
