@@ -91,6 +91,7 @@
 .intrograd {
   background-size: cover;
   background-repeat:no-repeat;
+  margin-top:-25px;
   width: 100vw;
   height: 70vw;
   position: absolute;
@@ -107,10 +108,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   width: 80vw;
   margin:0 auto;
   text-align: center;
+  margin-top:-25px;
 }
 @media (min-width: 768px) {
   .introtile {
-    background-image: url("../img/bwjoshsm.gif")
+    background-image: url("../img/bwjoshsm.gif");
+    margin-top:0px;;
+  }
+  .intrograd {
+    margin-top:0px;
   }
 }
 /*
