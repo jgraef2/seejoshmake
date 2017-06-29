@@ -607,8 +607,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 @media (max-height: 768px) {
   #closebtn {
-    height: 100%;
-    margin-bottom: 30%;
+    height: 300px;
+    margin-bottom: 250px;
   }
 }
 
