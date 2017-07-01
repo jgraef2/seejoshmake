@@ -5499,6 +5499,7 @@ button.close {
   outline: 0;
 }
 .modal.fade .modal-dialog {
+  overflow: auto;
   -webkit-transform: translate(0, -25%);
   -ms-transform: translate(0, -25%);
   -o-transform: translate(0, -25%);
