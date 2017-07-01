@@ -54,13 +54,18 @@
 .portheader {
   width:100vw;
   height:100vh;
-  min-height: 60vw;
+  min-height: 50vw;
   max-height:80vw;
   padding-top: 1%;
   margin: 0 auto;
   background-color: white;
   text-align: center;
   color: #262626;
+}
+@media (max-width: 768px) {
+  .portheader {
+    min-height: 60vw;
+  }
 }
 #portfolioModal15 a {
   color: #262626;
@@ -318,7 +323,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #portheadline {
   text-align:center;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 10vw;
+  font-size: 9vw;
   line-height: 9vw;
   letter-spacing: -.3vw;
   font-weight: 700;
