@@ -48,7 +48,7 @@
 .portheader {
   width:100vw;
   height:100vh;
-  min-height: 50vw;
+  min-height: 60vw;
   max-height:80vw;
   padding-top: 1%;
   margin: 0 auto;
@@ -80,6 +80,14 @@
   border-radius: 80vw;
   margin: 0 auto;
   margin-top: -2.6vw;
+}
+@media (max-width:600px) {
+  .theoretical {
+    color: transparent;
+  }
+  .theobg {
+    display: none;
+  }
 }
 .footer-above a {
   text-decoration: underline;
