@@ -616,15 +616,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 @media (max-width: 768px) {
   @media all and (orientation:landscape) {
    #closebtn {
-     height: 25vw;
-     margin-bottom: 50vw;
+     height: 75vw;
+     margin-bottom: 0;
    }
 }
 
 @media all and (orientation:portrait) {
   #closebtn {
-    height: 100vw;
-    margin-bottom: 200vw;
+    height: 200vw;
+    margin-bottom: 0;
   }
 }
 }
